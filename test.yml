@@ -1,0 +1,7 @@
+--- Master playbook for ansible test
+- hosts: localhost
+  user: ec2-user
+  sudo: yes
+  roles:
+    - httpd
+    
